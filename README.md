@@ -63,7 +63,7 @@ without a backend.
 >This is a [Next.js](https://nextjs.org/) 
 > Work in Progress
 
-Original project : [`nextjs-context-crud`](https://github.com/fazt/nextjs-context-crud) переделан https://github.com/fazt/nextjs-context-crud .
+Original project : [`nextjs-context-crud`](https://github.com/fazt/nextjs-context-crud) - https://github.com/fazt/nextjs-context-crud .
 
 #### 💡 Additional:
 react-hot-toast:
