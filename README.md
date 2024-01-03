@@ -3,7 +3,7 @@
 # Nextjs-todo-context-tailwind
 
 #### A project built for resurrecting the countless abandonware repos littering GitHub. The goal is to make it easier to turn any repo, no matter how old, and turn it into a working GitHub Codespace.
-#### Showcasing the use of local storage in Next.js with TypeScript, utilizing hooks and Redux.
+#### Showcasing the use of local storage in Next.js with TypeScript, utilizing hooks and context.
 [//]: # (Thank  for you choosing. We hope you enjoy this release, and we look forward to enhancing your note-taking journey in the future!)
 
 ## 📖 TODO
@@ -50,7 +50,7 @@ delete a todo.
 The demo uses browser localStorage for the data storage, which means it runs
 without a backend.  
 
-#### A project built for resurrecting the countless abandonware repos littering GitHub. The goal is to make it easier to turn any repo, no matter how old, and turn it into a working GitHub Codespace.
+#### A project built for resurrecting a stalled project requires a close look at what circumstances have changed, and then changing the plan to match the current reality..
 
 ### 📸 Screenshots
 ![Screenshot](public/2.bmp)
@@ -130,6 +130,8 @@ The repository follows the following structure:
 - `/src`: Contains children folders like "app", "components", and "store".
 - `/src/app`: Contains the main page of the application.
 - `/src/components`: Contains reusable components used throughout the application.
+- `/src/context`: App context set up. Can be used to store data, that only needs to be fetched once, but is needed in multiple places.
+- `/src/hooks`: React Hooks library for data fetching.
 
 [//]: # (- `/src/store`: Contains the MST models and store for state management.)
 
